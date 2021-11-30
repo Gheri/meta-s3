@@ -1,4 +1,4 @@
-# Coding Exercise: Data Storage API (Node.js) :turtle::rocket:
+# Data Storage API for storing metadata about s3 objects (Node.js) :turtle::rocket:
 
 Implement a small HTTP service in Node.js to store objects
 
