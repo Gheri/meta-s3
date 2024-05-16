@@ -56,6 +56,20 @@ const getObject = (req, res) => {
     });
 };
 
+const healthObject = (req, res) => {
+    
+    let data = {
+        "name": "gheri rupchandani",
+        "company": "warner bros discovery",
+        "designation": "staff software engineer",
+        "country": "india",
+        "expertise": "backend"
+    }
+
+    res.json(data);
+};
+
+
 const deleteObject = (req, res) => {
     Object.findOneAndRemove({ oid: req.params.objectId}, (err, object) => {
         if (err) {
